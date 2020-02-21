@@ -12,6 +12,9 @@ class Song < InteractiveRecord
     y
   end
   
+  def send(method_name, *args)
+    method_name
+end
   private
   
   def y
