@@ -20,5 +20,5 @@ class Song < InteractiveRecord
   @@num = 50
 
 end
-
+require 'pry'
 binding.pry
