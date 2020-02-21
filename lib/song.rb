@@ -14,6 +14,8 @@ class Song < InteractiveRecord
   #   @@num = num
   # end
   
+  self.attr_accessor :num
+  
   private
   @@num = 50
 
