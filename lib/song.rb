@@ -8,11 +8,15 @@
 
 # end
 
-
+class Class
+  def self.attr_accessor(*args)
+      
+  end
+end
 
 
 class Thing
-  attr_accessor :whatever
+  attr_accessor(:whatever)
   
   
   def some_method
