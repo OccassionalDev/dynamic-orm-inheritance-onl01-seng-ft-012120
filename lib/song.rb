@@ -14,6 +14,10 @@ end
 class Thing
   puts 'hello'
   
+  def some_method
+    puts 'this'
+  end
+  
 end
 
 
