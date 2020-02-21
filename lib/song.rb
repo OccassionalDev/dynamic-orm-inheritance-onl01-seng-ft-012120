@@ -7,25 +7,3 @@ class Song < InteractiveRecord
   end
 
 end
-
-class Class
-  def self.attr_accessor(*args)
-      
-  end
-end
-
-
-class Thing
-  
-  def some_method
-    puts 'this'
-  end
-  
-end
-puts 'thing class was defined'
-
-class Another
-  
-end
-
-puts 'another class was defined'
