@@ -18,3 +18,8 @@ class Song < InteractiveRecord
   
 
 end
+
+s = Song.new
+
+require 'pry'
+binding.pry
