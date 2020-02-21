@@ -13,7 +13,7 @@
 
 class Thing
   puts 'hello'
-  
+  @@all = []
   def some_method
     puts 'this'
   end
