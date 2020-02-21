@@ -12,7 +12,7 @@ end
 
 
 class Thing
-  
+  puts 'hello'
   
 end
 
