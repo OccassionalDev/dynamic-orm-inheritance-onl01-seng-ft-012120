@@ -10,15 +10,15 @@ class Song < InteractiveRecord
   
 
   
-  privatedef self.num
+  private
+  @@num = 50
+  def self.num
     @@num 
     
   end
   def self.num=(num)
     @@num = num
   end
-  @@num = 50
-
 end
 require 'pry'
 binding.pry
