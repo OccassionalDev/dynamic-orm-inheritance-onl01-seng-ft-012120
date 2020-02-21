@@ -11,5 +11,12 @@ end
 
 
 
-class assert_nothing_raised
+class Thing
   
+  
+end
+
+
+class Another
+  
+end
