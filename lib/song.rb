@@ -10,6 +10,9 @@ class Song < InteractiveRecord
     @@num 
     
   end
+  def self.num=(num)
+    @@num = num
+  end
   
   private
   @@num = 50
