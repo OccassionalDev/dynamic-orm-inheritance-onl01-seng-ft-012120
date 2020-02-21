@@ -6,19 +6,4 @@ class Song < InteractiveRecord
     attr_accessor col_name.to_sym
   end
   
-  def self.access
-    num
 end
-  
-  private
-  @@num = 50
-  def self.num
-    @@num 
-    
-  end
-  def self.num=(num)
-    @@num = num
-  end
-end
-require 'pry'
-binding.pry
