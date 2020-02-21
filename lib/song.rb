@@ -12,8 +12,9 @@
 
 
 class Thing
-  puts 'hello'
-  @@all = []
+  attr_accessor :whatever
+  
+  
   def some_method
     puts 'this'
   end
