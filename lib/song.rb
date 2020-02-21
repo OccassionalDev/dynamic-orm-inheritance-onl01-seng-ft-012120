@@ -19,8 +19,10 @@ class Thing
   end
   
 end
-
+puts 'thing class was defined'
 
 class Another
   
 end
+
+puts 'another class was defined'
