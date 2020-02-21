@@ -7,3 +7,9 @@ class Song < InteractiveRecord
   end
 
 end
+
+
+
+
+class assert_nothing_raised
+  
