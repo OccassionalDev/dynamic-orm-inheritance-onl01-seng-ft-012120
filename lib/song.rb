@@ -6,17 +6,17 @@ class Song < InteractiveRecord
     attr_accessor col_name.to_sym
   end
   
-  def self.num
+  
+  
+
+  
+  privatedef self.num
     @@num 
     
   end
   def self.num=(num)
     @@num = num
   end
-  
-
-  
-  private
   @@num = 50
 
 end
