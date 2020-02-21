@@ -13,7 +13,7 @@ class Song < InteractiveRecord
   end
   
   def send(method_name, *args)
-    method_name
+    method.call(method_name(*args))
 end
   private
   
