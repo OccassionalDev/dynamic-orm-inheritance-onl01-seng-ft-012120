@@ -9,7 +9,7 @@ class Song < InteractiveRecord
   def x
     
     8
-    
+    y
   end
   
   private
