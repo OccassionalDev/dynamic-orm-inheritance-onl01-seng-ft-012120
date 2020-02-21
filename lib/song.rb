@@ -19,6 +19,16 @@ class Thing
   attr_accessor(:whatever)
   
   
+  def whatever
+    
+    @whatever
+    
+  end
+
+  def whatever=(wh)
+    @whatever= wh
+  end
+  
   def some_method
     puts 'this'
   end
