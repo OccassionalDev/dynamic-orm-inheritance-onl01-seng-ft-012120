@@ -14,7 +14,9 @@ class Song < InteractiveRecord
   
   private
   
-  
+  def y
+    "why"  
+  end
   
 
 end
